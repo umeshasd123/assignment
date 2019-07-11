@@ -1,1 +1,211 @@
-body{ margin:0; padding:0; }
+body{ 
+    margin:0; padding:0; 
+    font:400 18px/ 30px 'Poppins', sans-serif;
+    color:#F4F4F4;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+.clearfix::after, header::after{
+    content:'';
+    width:0;height:0;
+    display:block;
+    clear: both;
+    overflow: hidden;
+}
+h1{
+    font-size:60px;
+    color:#0A1118;
+    line-height: 1.1;
+    margin: 0 0 30px;
+    font-weight:700;
+}
+h2{
+    font-size:40px;
+    color:#0A1118;
+    line-height: 1.1;
+    margin: 0 0 30px;
+    font-weight:500;
+}
+p{margin:0;color: #7f8b9b;margin:0 0 30px}
+.align-center{text-align: center}
+
+header{
+    padding:30px 75px;
+}
+header .logo{
+    float:left;
+}
+.contact-no{
+    float:right;
+    background:#C8122E;
+    color:#fff;
+    margin-left:30px;
+    font-size:14px;
+    padding:5px 15px;
+    text-transform:uppercase;
+}
+nav{
+    float:right;
+    padding-top:4px;
+}
+nav ul{
+    margin:0;
+}
+nav ul li{
+    display:inline-block;
+    font-size:14px;
+    text-transform:uppercase;
+    margin:0 15px;
+}
+nav li a{
+    color:#0A1118;
+}
+
+.container{
+    display:flex;
+}
+.grid-6{
+    width:50%;
+}
+.grid-6.left{
+    padding:0 40px 0 70px;
+}
+.grid-6.right{
+    padding:0 70px 0 40px;
+}
+
+.banner{
+    background:url(../images/mail-banner.jpg) no-repeat;
+    background-size:cover;
+    height:540px;
+}
+.banner-content{
+    background:rgba(255,255,255, .9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content .text{
+    padding:30px 0;
+}
+.banner-content p{
+    color: #7f8b9b;
+}
+.section-1{
+    padding:100px 0;
+}
+.section-1 .content{
+    padding-left:0;
+}
+
+.btn{background:#0A1118;color:#fff;font-size:14px;text-transform:uppercase;padding:8px 15px;}
+
+.section-2{
+    padding:100px 0;
+    background-color: #f4f4f4;
+}
+.section-2 .content{
+    padding-left:0;
+}
+.section-2 .list ul{margin: 0 30px 0 0;}
+.section-2 .list ul li{
+    background: #fff;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+.section-2 .list ul li h3{
+    margin: 0;
+    color: #0A1118;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 0;
+}
+.section-2 .list ul li p{
+    margin: 0;
+    font-size: 12px;
+}
+.section-2 .list ul li:nth-child(even){
+    background-color: #EDAB5E ;
+}
+.section-2 .list ul li:nth-child(even) h3,.section-2 .list ul li:nth-child(even) p{
+    color:#fff;
+}
+
+.section-3{
+
+}
+.section-3 .content{
+    background:#0A1118;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 .text {
+    padding: 30px 0;
+}
+.section-3 .content h2{
+    color:#fff;
+}
+.section-3 .figure{
+    background:url(../images/02.jpg) no-repeat;
+    background-size:cover;
+    height:605px;
+}
+.section-3 ul{margin:0;padding:0;}
+.section-3 ul li{
+    margin:0;padding:0 0 20px 36px;
+    background:url(../images/tick-mark-icon.svg) no-repeat left 9px;
+    list-style-type:none;
+    color: #a1adb9;
+}
+
+footer{
+    padding: 30px 75px;
+}
+footer .logo {
+    float: left;
+    color: #8e95a5;
+    font-size:12px;
+}
+footer .logo img{
+    vertical-align:middle;
+    margin-right:10px;
+}
+footer ul {
+    margin: 0;
+    float: left;
+}
+footer ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px;
+}
+footer ul li a{
+    font-size: 12px;
+    color: #8e95a5;
+}
+.footer-right{
+    float: right;
+}
+.footer-right span{
+    display: inline-block;
+    color: #8e95a5;
+    font-size: 12px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.footer-right .socio-ico{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-right .socio-ico a{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 0;
+    margin-top: 5px;
+}
