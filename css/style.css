@@ -233,6 +233,16 @@ footer ul li a:hover{
         padding: 0 30px 0 40px;
     }
 }
+@media screen and (max-width:820px){
+    nav {
+        float: right;
+        padding-top: 35px;
+        position: fixed;top: 0;  right: 0;    top: 0;
+        bottom: 0;
+        background: #0a1118;
+        width: 220px;
+    }
+}
 @media screen and (max-width:768px){
     .banner{
         text-align: center;
